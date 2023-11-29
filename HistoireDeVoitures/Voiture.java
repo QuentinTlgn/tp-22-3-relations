@@ -9,10 +9,6 @@ public class Voiture {
 		return vitesseMax;
 	}
 
-	public double getPrixDeBase() {
-		return prixDeBase;
-	}
-
 	public String getCouleur() {
 		return couleur;
 	}

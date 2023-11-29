@@ -18,5 +18,4 @@ public class Renault extends Voiture{
 	public int getAnneeFabrication() {
 		return anneeFabrication;
 	}
-	
 }

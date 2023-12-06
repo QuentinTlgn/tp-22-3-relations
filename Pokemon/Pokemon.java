@@ -17,7 +17,7 @@ public class Pokemon {
 	public int getPv() {
 		return pv;
 	}
-	public int getAtk() {
+	protected int getAtk() {
 		return atk;
 	}
 	
@@ -37,6 +37,5 @@ public class Pokemon {
 	@Override
 	public String toString() {
 		return "[Pokémon "+ nom + ", pv: "+pv;
-	}
-	
+	}	
 }

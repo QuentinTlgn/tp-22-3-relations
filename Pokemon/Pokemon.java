@@ -25,8 +25,7 @@ public class Pokemon {
 		return pv==0;
 	}
 	
-	
-	private void prendreDegats(int deg) {
+	protected void prendreDegats(int deg) {
 		this.pv -= deg;
 		if (pv < 0)
 			pv = 0;
